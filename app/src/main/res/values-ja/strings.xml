@@ -13,7 +13,7 @@
   <string name="action_done">完了</string>
   <string name="action_back">戻る</string>
   <string name="action_delete">削除</string>
-  <string name="install_ksu_running">KernelSU モジュールが稼働中</string>
+  <string name="install_ksu_running">KernelSU モジュールが実行中</string>
   <string name="kernelsu_manager_required">KernelSU Manager が必要です</string>
   <string name="kernelsu_manager_open">タップでダウンロードページを開く</string>
   <string name="kernelsu_manager_custom_required">このビルドは、専用の KernelSU Manager が必要です</string>
