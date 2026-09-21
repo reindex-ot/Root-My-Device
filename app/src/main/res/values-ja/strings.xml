@@ -37,10 +37,6 @@
   <string name="material_color">マテリアルカラー</string>
   <string name="material_color_description">インターフェースのアクセントパレットを選択してください</string>
   <string name="language_system">システムに従う</string>
-  <string name="language_korean" translatable="false">한국어</string>
-  <string name="language_english" translatable="false">English</string>
-  <string name="language_japanese" translatable="false">日本語</string>
-  <string name="language_chinese" translatable="false">简体中文</string>
   <string name="color_dynamic">ダイナミックカラー</string>
   <string name="color_blue">ブルー</string>
   <string name="color_violet">バイオレット</string>
