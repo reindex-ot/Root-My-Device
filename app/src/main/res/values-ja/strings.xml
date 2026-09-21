@@ -1,55 +1,184 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Root My Device</string><string name="nav_overview">ホーム</string><string name="nav_history">実行履歴</string><string name="nav_settings">設定</string>
-    <string name="install_confirm_title">KernelSUをインストールしますか？</string><string name="install_confirm_body">対応プロファイルを確認し、exploitとKernelSU payloadをGitHubから取得して実行します。</string>
-    <string name="action_confirm">確認</string><string name="action_cancel">キャンセル</string><string name="action_close">閉じる</string><string name="action_retry">再試行</string><string name="action_done">完了</string><string name="action_back">戻る</string><string name="action_delete">削除</string>
-    <string name="install_ksu_running">KernelSUモジュールは動作中です</string><string name="kernelsu_manager_required">必要な KernelSU マネージャ</string><string name="kernelsu_manager_open">タップでダウンロードページを開く</string><string name="kernelsu_manager_custom_required">このビルド専用の KernelSU マネージャが必要です</string><string name="kernelsu_manager_custom_replace">公式版とは署名もパッケージ名も別で、このビルドは公式版を受け付けません。両方入れたままで構いません。</string><string name="install_tap_retry">タップして再試行</string><string name="install_tap_start">タップしてKernelSUをインストール</string>
-    <string name="device">デバイス</string><string name="firmware">ファームウェア</string><string name="os_version">OSバージョン</string><string name="kernel">カーネル</string><string name="system">システム</string><string name="system_abi">システムABI</string>
-    <string name="settings">設定</string><string name="version_format">%1$s (%2$d)</string><string name="language">言語</string><string name="language_description">アプリの表示言語を選択</string><string name="appearance">外観</string><string name="theme_system">システム</string><string name="theme_light">ライト</string><string name="theme_dark">ダーク</string><string name="material_color">Materialカラー</string><string name="material_color_description">インターフェースのアクセントカラーを選択</string>
-    <string name="language_system">システム設定に従う</string>
-    <string name="color_dynamic">システム動的カラー</string><string name="color_blue">ブルー</string><string name="color_violet">バイオレット</string><string name="color_green">グリーン</string><string name="color_orange">オレンジ</string>
-    <string name="history_title">実行履歴</string><string name="history_empty_title">実行履歴はありません</string><string name="history_empty_description">インストールを実行すると、結果とログがここに表示されます。</string><string name="history_running">実行中</string><string name="history_succeeded">成功</string><string name="history_failed">失敗</string><string name="history_skipped">スキップ</string><string name="history_detail_title">実行詳細</string><string name="history_started">開始: %1$s</string><string name="history_completed">完了: %1$s</string><string name="history_log">実行ログ</string><string name="history_log_empty">ログはまだありません。</string><string name="history_clear_title">実行履歴をすべて削除しますか？</string><string name="history_clear_body">保存されている実行結果と実行ログをこの端末から削除します。</string><string name="history_delete_title">この実行記録を削除しますか？</string><string name="history_delete_body">この実行結果と実行ログをこの端末から削除します。</string><string name="history_payload">Payload: %1$s</string><string name="payload_release">Payload リリース</string><string name="payload_current">現在公開されているリリースです。</string><string name="payload_unchecked">新しいリリースがあるか確認できませんでした。</string><string name="payload_outdated">新しいリリースが公開されています: %1$s</string><string name="payload_fetching">取得中…</string><string name="payload_fetched">%1$s を取得しました。次回の実行では改めてリリースを解決します。</string><string name="action_force_fetch">強制Fetch</string><string name="log_payload_release">[+] Payload リリース: %1$s</string><string name="log_payload_newer">[!] 新しい Payload リリースが公開されています: %1$s</string><string name="log_payload_check_failed">[!] 新しい Payload リリースの確認に失敗しました</string><string name="log_payload_fetching">[*] Payload リリース %1$s を強制取得中</string><string name="log_payload_fetched">[+] Payload リリース %1$s を取得しました</string>
-    <string name="install_title">インストール</string><string name="install_keep_open">完了するまでこの画面を開いたままにしてください</string><string name="install_live_progress">ログ</string><string name="install_preparing">準備中…</string>
-    <string name="step_support_title">対応確認</string><string name="step_support_detail">デバイスとファームウェアを検証</string><string name="step_download_title">ダウンロード</string><string name="step_download_detail">対応一覧を読み込む</string><string name="step_exploit_title">カーネルexploit</string><string name="step_exploit_detail">bootstrap rootを取得</string><string name="step_ksu_title">KernelSUをロード</string><string name="step_ksu_detail">モジュールと制御チャネルを検証</string>
-    <string name="phase_checking">対応デバイスとファームウェアを確認中</string><string name="phase_ready">インストール可能です</string><string name="phase_downloading">GitHubからリリース固定のpayloadを取得中</string><string name="phase_exploiting">10分以上かかる場合があり、端末が熱くなったり応答しなくなったりすることがあります。</string><string name="phase_loading_ksu">bootstrap rootでKernelSUをロード中</string><string name="phase_installed">KernelSUモジュールと制御チャネルを検証済み</string><string name="phase_failed">下のログで失敗箇所を確認してください</string><string name="phase_skipped">端末を再起動してから 1 回だけ実行してください</string>
-    <string name="status_ksu_active">KernelSU有効</string><string name="status_not_installed">未インストール</string><string name="status_support_failed">対応確認に失敗</string><string name="status_checking_github">GitHub対応一覧を確認中</string><string name="status_downloading_payload">payloadを取得中</string><string name="status_exploit_running">カーネルexploitを実行中</string><string name="status_ksu_loading">KernelSUをlate-load中</string><string name="status_install_failed">インストール失敗</string><string name="status_install_skipped">スキップしました — 先に再起動が必要です</string>
-    <string name="log_profile">[+] 対応プロファイル: %1$s</string><string name="log_download_verified">[+] payloadの取得完了</string><string name="log_install_complete">[+] インストール完了</string><string name="log_bootstrap_root">[+] bootstrap rootを取得</string><string name="log_ksu_staged">[+] KernelSUの配置完了</string><string name="log_ksu_control_verified">[+] KernelSU制御チャネルを検証</string>
-    <string name="error_helper_unavailable">bootstrap helperを実行できません</string><string name="error_exploit_stalled">exploitログが90秒間更新されませんでした</string><string name="error_exploit_timeout">exploitが15分の制限を超えました</string><string name="error_payload_exit">payload実行エラー: %1$d%2$s</string><string name="error_success_marker">exploit成功マーカーが見つかりません</string><string name="error_leak_channel_pinned">このブートでは既に一度 root 化されており、再起動するまでカーネルベースの leak を実行できません。端末を再起動してから 1 回だけ実行してください。</string><string name="error_ksu_stage">KernelSUの配置に失敗: %1$s</string><string name="error_ksu_verify">KernelSUのlate-loadまたは検証に失敗 (rc=%1$d): %2$s</string><string name="error_boot_id">現在のboot_idを読み取れません</string><string name="error_receipt">検証結果を保存できません</string>
-    <string name="artifact_exploit">exploit</string><string name="artifact_kernelsu">KernelSU</string><string name="repo_no_profile">このファームウェアに完全一致する対応プロファイルがありません</string><string name="repo_downloading">%1$sをダウンロード中</string><string name="repo_size_mismatch">%1$sのサイズが対応一覧と一致しません</string><string name="repo_size_exceeded">%1$sが宣言されたサイズを超えました</string><string name="repo_incomplete">%1$sのダウンロードが不完全です</string><string name="repo_verified">%1$sを検証済み</string><string name="repo_release_invalid">GitHubのpayloadリリースが無効です</string><string name="repo_feed_missing">payloadリリースに%1$sがありません</string><string name="repo_url_invalid">許可されていないartifactリポジトリです</string><string name="repo_response_too_large">応答がサイズ上限を超えました</string>
-    <string name="open_github">GitHubを開く</string>
-    <string name="github_card_title">Root My Deviceについて</string>
-    <string name="github_card_description">ソースコードと使用方法を確認します。</string>
-    <string name="action_continue">無視して続行</string><string name="action_next">次へ</string>
-    <string name="advanced">詳細設定</string><string name="advanced_mode">詳細モード</string><string name="advanced_mode_description">インストールするカーネルとファームウェアプロファイルを手動で選択</string>
-    <string name="repo_profile_missing">対応プロファイル%1$sは利用できなくなりました</string>
-    <string name="select_device_title">対応プロファイルを選択</string><string name="select_device_description">今回のインストールに使用するカーネルとファームウェアプロファイルを選択します。</string><string name="show_my_kernel_only">自分のカーネルのみ表示</string><string name="no_matching_kernels">このカーネルに一致するプロファイルはありません。</string>
-    <string name="kernel_mismatch_title">カーネルが一致しません</string><string name="kernel_mismatch_body">現在のカーネルは%1$sですが、選択したプロファイルのカーネルは%2$sです。実行すると端末が停止または破損する可能性があります。</string>
-    <string name="build_mismatch_title">ファームウェアが一致しません</string><string name="build_mismatch_body">現在のビルドは%1$sですが、選択したプロファイルは%2$s用です。オフセットに互換性がない可能性があります。</string>
-    <string name="about">について</string><string name="fork_notice">Root My Device は BuSung-dev による Root My Galaxy のフォークで、Apache License 2.0 のもとで利用しています。</string><string name="fork_upstream_app" translatable="false">Root My Galaxy</string><string name="fork_upstream_app_description">フォーク元のアプリケーション</string><string name="fork_upstream_payloads" translatable="false">Root My Galaxy Payloads</string><string name="fork_upstream_payloads_description">フォーク元のデバイス一覧とネイティブpayload</string>
-    <string name="debug_mode">デバッグモード</string>
-    <string name="debug_mode_description">配信されている feed ではなく、本体のフォルダから payload を読み込みます。機種の立ち上げ用です。</string>
-    <string name="debug_payload_folder">ローカル payload フォルダ</string>
-    <string name="debug_payload_folder_description">%1$s・アプリ用 payload・ksud を置いたフォルダ</string>
-    <string name="debug_payload_folder_unset">未選択</string>
-    <string name="debug_local_payload_active">ローカル payload</string>
-    <string name="debug_local_payload_unverified">本体から読み込み。ダウンロード時の検証は一切ありません</string>
-    <string name="status_reading_local">ローカル payload を読み込み中</string>
-    <string name="status_local_failed">ローカル payload が使えません</string>
-    <string name="log_local_source">[*] feed をバイパス: payload を %1$s から読み込み</string>
-    <string name="log_local_overrides">[*] デバッグモードが有効なため、プロファイル %1$s ではなくローカル payload を使用します</string>
-    <string name="log_local_ready">[+] ローカル payload の準備完了</string>
-    <string name="local_no_folder">ローカル payload フォルダが未選択です</string>
-    <string name="local_manifest_field">ローカル payload の manifest に %1$s がありません</string>
-    <string name="local_file_missing">選択したフォルダに %1$s がありません</string>
-    <string name="local_manifest_unparsable">%1$s に読み取れる payload manifest がありません</string>
-    <string name="local_device_mismatch">ローカル payload は %1$s が %2$s ですが、この端末は %3$s です</string>
-    <string name="local_copying">%1$s をコピー中</string>
-    <string name="local_copied">%1$s をコピーしました (%2$d バイト)</string>
-    <string name="local_unreadable">選択したフォルダから %1$s を読み取れません</string>
-    <string name="local_too_large">%1$s が payload の上限サイズを超えています</string>
-    <string name="local_empty">%1$s が空です</string>
-    <string name="local_not_elf">%1$s は ELF バイナリではありません</string>
-    <string name="payload_local">ローカルフォルダから読み込み。確認するリリースはありません</string>
-    <string name="action_reload_local">再読み込み</string>
-    <string name="install_confirm_body_local">デバッグモードが有効です。exploit と KernelSU payload は本体の %1$s から読み込み、ダウンロードはしません。</string>
+  <string name="app_name">Root My Device</string>
+  <string name="nav_overview">ホーム</string>
+  <string name="nav_history">履歴</string>
+  <string name="nav_settings">設定</string>
+  <string name="install_confirm_title">KernelSU をインストールしますか？</string>
+  <string name="install_confirm_body">アプリは対応プロファイルを検証後に GitHub からエクスプロイトと KernelSU ペイロードをダウンロードして実行します。</string>
+  <string name="action_confirm">確認</string>
+  <string name="action_cancel">キャンセル</string>
+  <string name="action_close">閉じる</string>
+  <string name="action_retry">再試行</string>
+  <string name="action_done">完了</string>
+  <string name="action_back">戻る</string>
+  <string name="action_delete">削除</string>
+  <string name="install_ksu_running">KernelSU モジュールは実行中です</string>
+  <string name="kernelsu_manager_required">KernelSU Manager が必要です</string>
+  <string name="kernelsu_manager_open">タップでダウンロードページを開く</string>
+  <string name="kernelsu_manager_custom_required">このビルドは、専用の KernelSU Manager が必要です</string>
+  <string name="kernelsu_manager_custom_replace">公式のアプリと署名や名称が異なり、このビルドでは受け付けられません。両方をインストールすることは可能です。</string>
+  <string name="install_tap_retry">タップで再試行</string>
+  <string name="install_tap_start">タップで KernelSU をインストール</string>
+  <string name="device">デバイス</string>
+  <string name="firmware">ファームウェア</string>
+  <string name="os_version">OS バージョン</string>
+  <string name="kernel">カーネル</string>
+  <string name="system">システム</string>
+  <string name="system_abi">システム ABI</string>
+  <string name="settings">設定</string>
+  <string name="version_format">%1$s (%2$d)</string>
+  <string name="language">言語</string>
+  <string name="language_description">アプリの言語を変更します</string>
+  <string name="appearance">外観</string>
+  <string name="theme_system">システム</string>
+  <string name="theme_light">ライト</string>
+  <string name="theme_dark">ダーク</string>
+  <string name="material_color">マテリアルカラー</string>
+  <string name="material_color_description">インターフェースのアクセントパレットを選択してください</string>
+  <string name="language_system">システムに従う</string>
+  <string name="language_korean" translatable="false">한국어</string>
+  <string name="language_english" translatable="false">English</string>
+  <string name="language_japanese" translatable="false">日本語</string>
+  <string name="language_chinese" translatable="false">简体中文</string>
+  <string name="color_dynamic">ダイナミックカラー</string>
+  <string name="color_blue">ブルー</string>
+  <string name="color_violet">バイオレット</string>
+  <string name="color_green">グリーン</string>
+  <string name="color_orange">オレンジ</string>
+  <string name="history_title">実行履歴</string>
+  <string name="history_empty_title">まだ実行していません</string>
+  <string name="history_empty_description">インストール結果とログがここに表示されます。</string>
+  <string name="history_running">実行中</string>
+  <string name="history_succeeded">成功しました</string>
+  <string name="history_failed">失敗しました</string>
+  <string name="history_skipped">スキップしました</string>
+  <string name="history_detail_title">実行の詳細</string>
+  <string name="history_started">開始: %1$s</string>
+  <string name="history_completed">完了: %1$s</string>
+  <string name="history_log">実行ログ</string>
+  <string name="history_log_empty">ログの出力がありません。</string>
+  <string name="history_clear_title">実行履歴を削除しますか？</string>
+  <string name="history_clear_body">保存されたすべての実行とログが、このデバイスから削除されます。</string>
+  <string name="history_delete_title">この実行を削除しますか？</string>
+  <string name="history_delete_body">実行およびログが、このデバイスから削除されます。</string>
+  <string name="history_payload">ペイロード: %1$s</string>
+  <string name="payload_release">ペイロードのリリース</string>
+  <string name="payload_current">公開されているリリースです。</string>
+  <string name="payload_unchecked">最新のリリースが公開されているか確認できませんでした。</string>
+  <string name="payload_outdated">最新のリリースが公開されています: %1$s</string>
+  <string name="payload_fetching">取得中…</string>
+  <string name="payload_fetched">「%1$s」を取得しました。次回の実行時に、再度リリースが解決されます。</string>
+  <string name="action_force_fetch">取得を強制</string>
+  <string name="log_payload_release">[+] ペイロードのリリース: %1$s</string>
+  <string name="log_payload_newer">[!] 最新のペイロードが公開されています: %1$s</string>
+  <string name="log_payload_check_failed">[!] 最新のペイロードのリリースを確認できませんでした</string>
+  <string name="log_payload_fetching">[*] ペイロードのリリース「%1$s」を強制的に取得します</string>
+  <string name="log_payload_fetched">[+] ペイロードのリリース「%1$s」を取得しました</string>
+  <string name="install_title">インストール</string>
+  <string name="install_keep_open">インストールが完了するまで、この画面を開いたままにしてください</string>
+  <string name="install_live_progress">ログ</string>
+  <string name="install_preparing">準備中です…</string>
+  <string name="step_support_title">対応を確認</string>
+  <string name="step_support_detail">デバイスおよびファームウェアのプロファイルを検証します</string>
+  <string name="step_download_title">ダウンロード</string>
+  <string name="step_download_detail">対応マニフェストを読み込みます</string>
+  <string name="step_exploit_title">カーネルエクスプロイト</string>
+  <string name="step_exploit_detail">ブートストラップ root を取得します</string>
+  <string name="step_ksu_title">KernelSU を読み込む</string>
+  <string name="step_ksu_detail">遅延読み込みモジュールおよびコントロールチャネルを検証します</string>
+  <string name="phase_checking">対応デバイスとファームウェアの確認</string>
+  <string name="phase_ready">インストールの準備が完了しました</string>
+  <string name="phase_downloading">GitHub からリリースが固定されたペイロードをダウンロード中</string>
+  <string name="phase_exploiting">これには 10 分以上要する場合があります。デバイスが熱くなったり、反応しなくなったりすることがあります。</string>
+  <string name="phase_loading_ksu">取得したブートストラップ root を使用して KernelSU を読み込み</string>
+  <string name="phase_installed">KernelSU モジュールおよびコントロールチャネルを検証しました</string>
+  <string name="phase_failed">以下のログにある問題となる箇所を確認してください</string>
+  <string name="phase_skipped">デバイスを再起動後に再度実行してください</string>
+  <string name="status_ksu_active">KernelSU が有効</string>
+  <string name="status_not_installed">未インストール</string>
+  <string name="status_support_failed">対応の確認に失敗しました</string>
+  <string name="status_checking_github">GitHub の対応マニフェストを確認中です</string>
+  <string name="status_downloading_payload">ペイロードをダウンロード中です</string>
+  <string name="status_exploit_running">カーネルエクスプロイトを実行中</string>
+  <string name="status_ksu_loading">KernelSU の遅延読み込み</string>
+  <string name="status_install_failed">インストールに失敗しました</string>
+  <string name="status_install_skipped">スキップしました — 始めに再起動が必要です</string>
+  <string name="log_profile">[+] 対応プロファイル: %1$s</string>
+  <string name="log_download_verified">[+] ペイロードのダウンロードが完了しました</string>
+  <string name="log_install_complete">[+] インストールが完了しました</string>
+  <string name="log_bootstrap_root">[+] ブートストラップ root の取得に成功しました</string>
+  <string name="log_ksu_staged">[+] KernelSU の開始が完了しました</string>
+  <string name="log_ksu_control_verified">[+] KernelSU コントロールチャネルを検証</string>
+  <string name="error_helper_unavailable">ブートストラップヘルパーは実行できません</string>
+  <string name="error_exploit_stalled">エクスプロイトのログが 90 秒間更新されませんでした</string>
+  <string name="error_exploit_timeout">エクスプロイトが 15 分の制限時間を超過しました</string>
+  <string name="error_payload_exit">ペイロードの実行に失敗: %1$d%2$s</string>
+  <string name="error_success_marker">エクスプロイトの成功を示す兆候が見つかりませんでした</string>
+  <string name="error_leak_channel_pinned">このブートプロセスでは、すでに一度 root 化が行われており、再起動するまではカーネルベースアドレスのリーク処理を再度実行できません。デバイスを再起動してから、再度お試しください。</string>
+  <string name="error_ksu_stage">KernelSU のステージングに失敗: %1$s</string>
+  <string name="error_ksu_verify">KernelSU の遅延読み込みまたはコントロールの検証に失敗しました (rc=%1$d): %2$s</string>
+  <string name="error_boot_id">現在の boot_id を読み取れません</string>
+  <string name="error_receipt">インストールの確認の受領を保存できません</string>
+  <string name="artifact_exploit">エクスプロイト</string>
+  <string name="artifact_kernelsu">KernelSU</string>
+  <string name="repo_no_profile">このファームウェアに完全に一致する対応プロファイルがありません</string>
+  <string name="repo_downloading">「%1$s」をダウンロード中です</string>
+  <string name="repo_size_mismatch">「%1$s」のサイズが対応マニフェストと一致しません</string>
+  <string name="repo_size_exceeded">「%1$s」が宣言されたサイズを超過しました</string>
+  <string name="repo_incomplete">「%1$s」のダウンロードが未完了です</string>
+  <string name="repo_verified">「%1$s」を検証しました</string>
+  <string name="repo_release_invalid">GitHub が不正なペイロードのリリースを返しました</string>
+  <string name="repo_feed_missing">ペイロードのリリースには %1$s アセットが含まれていません</string>
+  <string name="repo_url_invalid">アーティファクトリポジトリは許可されていません</string>
+  <string name="repo_response_too_large">レスポンスがサイズ制限を超過しました</string>
+  <string name="open_github">GitHub を開く</string>
+  <string name="github_card_title">Root My Device を探す</string>
+  <string name="github_card_description">ソースコードと使用方法を確認できます。</string>
+  <string name="action_continue">気にせず続行</string>
+  <string name="action_next">次へ</string>
+  <string name="advanced">高度</string>
+  <string name="advanced_mode">高度モード</string>
+  <string name="advanced_mode_description">インストール時にカーネルとファームウェアプロファイルを手動で選択します</string>
+  <string name="about">アプリについて</string>
+  <string name="fork_notice">Root My Device は BuSung-dev 氏の Root My Galaxy のフォークであり、 Apache License 2.0 に基づいてライセンスされています。</string>
+  <string name="fork_upstream_app">Root My Galaxy</string>
+  <string name="fork_upstream_app_description">Root My Device のフォーク元となるアプリ</string>
+  <string name="fork_upstream_payloads">Root My Galaxy ペイロード</string>
+  <string name="fork_upstream_payloads_description">元となるデバイスフィードとネイティブペイロード</string>
+  <string name="repo_profile_missing">対応プロファイル「%1$s」は利用できなくなりました</string>
+  <string name="select_device_title">対応プロファイルを選択</string>
+  <string name="select_device_description">このインストールで使用するカーネルおよびファームウェアのプロファイルを選択してください。</string>
+  <string name="show_my_kernel_only">自分のカーネルのみ表示</string>
+  <string name="no_matching_kernels">このカーネルに一致するプロファイルはありません。</string>
+  <string name="kernel_mismatch_title">カーネルが不一致</string>
+  <string name="kernel_mismatch_body">このデバイスで「%1$s」のカーネルを使用していますが、選択したプロファイルは「%2$s」が対象です。実行するとクラッシュや、デバイスを破損させる可能性があります。</string>
+  <string name="build_mismatch_title">ファームウェアが不一致</string>
+  <string name="build_mismatch_body">このデバイスで「%1$s」のビルドを使用していますが、選択したプロファイルは「%2$s」が対象です。オフセットに互換性がない可能性があります。</string>
+  <string name="debug_mode">デバッグモード</string>
+  <string name="debug_mode_description">公開されているペイロードの代わりに、このデバイス上のフォルダからペイロードを読み込みます。対象を立ち上げるために使用します。</string>
+  <string name="debug_payload_folder">ローカルペイロードのフォルダ</string>
+  <string name="debug_payload_folder_description">%1$s、アプリのペイロード、ksud を含むフォルダです</string>
+  <string name="debug_payload_folder_unset">未選択</string>
+  <string name="debug_local_payload_active">ローカルペイロード</string>
+  <string name="debug_local_payload_unverified">ダウンロードしたペイロードに対して行われるような確認を経ることなく、このデバイスから読み込みます</string>
+  <string name="status_reading_local">ローカルペイロードを読み取り</string>
+  <string name="status_local_failed">ローカルペイロードは利用できません</string>
+  <string name="log_local_source">[*] フィードをバイパス: 「%1$s」から読み取られたペイロードです</string>
+  <string name="log_local_overrides">[*] デバッグモードが有効になっているため、「%1$s」のプロファイルの代わりにローカルペイロードが使用されます</string>
+  <string name="log_local_ready">[+] ローカルペイロードの準備が完了</string>
+  <string name="local_no_folder">ローカルペイロードのフォルダが選択されていません</string>
+  <string name="local_manifest_field">ローカルペイロードのマニフェストには「%1$s」がありません</string>
+  <string name="local_file_missing">選択したフォルダには「%1$s」がありません</string>
+  <string name="local_manifest_unparsable">「%1$s」には読み取り可能なペイロードマニフェストが含まれていません</string>
+  <string name="local_device_mismatch">ローカルペイロードは「%1$s」と「%2$s」を宣言していますが、このデバイスは「%3$s」です</string>
+  <string name="local_copying">「%1$s」をコピー中です</string>
+  <string name="local_copied">「%1$s」をコピーしました (%2$d バイト)</string>
+  <string name="local_unreadable">選択したフォルダから「%1$s」を読み込めませんでした</string>
+  <string name="local_too_large">「%1$s」はペイロードよりサイズが大きいです</string>
+  <string name="local_empty">「%1$s」は空です</string>
+  <string name="local_not_elf">「%1$s」は ELF バイナリではありません</string>
+  <string name="payload_local">ローカルフォルダから読み込むため、確認すべきリリースはありません</string>
+  <string name="action_reload_local">再読み込み</string>
+  <string name="install_confirm_body_local">デバッグモードが有効: エクスプロイトと KernelSU ペイロードをダウンロードせずにデバイス上の「%1$s」から読み込みます。</string>
 </resources>
